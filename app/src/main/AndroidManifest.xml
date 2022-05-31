@@ -10,19 +10,19 @@
         android:theme="@style/AppTheme">
         <activity
             android:parentActivityName=".MainActivity"
-            android:name=".ColorsActivity"
+            android:name=".activity.ColorsActivity"
             android:exported="false" />
         <activity
             android:parentActivityName=".MainActivity"
-            android:name=".FamilyActivity"
+            android:name=".activity.FamilyActivity"
             android:exported="false" />
         <activity
             android:parentActivityName=".MainActivity"
-            android:name=".NumbersActivity"
+            android:name=".activity.NumbersActivity"
             android:exported="false" />
         <activity
             android:parentActivityName=".MainActivity"
-            android:name=".PhrasesActivity"
+            android:name=".activity.PhrasesActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

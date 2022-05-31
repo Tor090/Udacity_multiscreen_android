@@ -15,8 +15,8 @@ import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.media.AudioAttributesCompat
 import com.example.android.miwok.R
-import com.example.android.miwok.Word
-import com.example.android.miwok.WordAdapter
+import com.example.android.miwok.data.entity.Word
+import com.example.android.miwok.adapters.WordAdapter
 
 
 class NumbersFragment : Fragment() {

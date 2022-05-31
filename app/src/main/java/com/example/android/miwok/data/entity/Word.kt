@@ -1,4 +1,4 @@
-package com.example.android.miwok
+package com.example.android.miwok.data.entity
 
 data class Word(
     private val mDefaultTranslation: Int,

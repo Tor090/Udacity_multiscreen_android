@@ -1,4 +1,4 @@
-package com.example.android.miwok
+package com.example.android.miwok.adapters
 
 
 import android.app.Activity
@@ -9,6 +9,8 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import com.example.android.miwok.R
+import com.example.android.miwok.data.entity.Word
 
 
 class WordAdapter(val context: Activity, val words: ArrayList<Word>, val colorResourceId : Int) : BaseAdapter() {
